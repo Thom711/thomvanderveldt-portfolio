@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import profile from '../images/profile.jpg'
 
 class Header extends React.Component {
     constructor() {
@@ -32,7 +33,7 @@ class Header extends React.Component {
         return (
             <header className="page-header">
                 <figure>
-                    <img src="/images/profile.jpg"
+                    <img src={profile}
                         width="125" 
                         className="page-header__image bShadow-33"
                         alt="Profile"
