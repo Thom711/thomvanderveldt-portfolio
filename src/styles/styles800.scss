@@ -1,0 +1,130 @@
+@media(min-width: 800px) {
+
+    .container {
+        margin: 20px 25% 20px 25%;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto 70px;
+        grid-template-areas:
+            "h"
+            "m"
+            "f";
+    }
+    
+    .page-header {
+        justify-content: center;
+        padding-bottom: 20px;
+    
+        figure {
+            margin-right: 80px;
+        
+            img {
+                width: 175px;
+            }
+        }
+    
+        &__profile {     
+            &--name {
+                font-size: 1.5em;
+            }
+    
+            &--title {
+                font-size: 0.85em;
+            }
+        }
+        
+        nav {
+            margin-top: 20px;
+    
+            .link {
+                padding: 6px 16px;
+                font-size: 0.85em;
+            }
+    
+            .github {
+                margin-right: 15px;
+            } 
+        }
+    }
+    
+    main {
+        
+        .page-about {
+            padding: 22px;
+            
+            section {
+                max-width: 100%;
+            }
+    
+            h3 {
+                font-size: 1.25em;
+                margin-bottom: 10px;
+            }
+        
+            p {
+                margin: 0 auto;
+                font-size: 0.85em;
+            }
+        }
+           
+        .page-projects {
+            padding: 22px;
+    
+            section {
+                figure {
+                    .left-side {
+                        margin-right: 20px;
+                    }
+                }
+            }
+    
+            h3 {
+                margin: 0 auto;
+                font-size: 1.25em;
+                margin-bottom: 5px;
+            }
+    
+            p {
+                padding-top: 15px;
+                width: 100%;
+                margin-right: 20px;
+                font-size: 0.85em;
+            }
+        }
+    
+        .page-contact {
+            padding: 22px;
+
+            h3 {
+                font-size: 1.25em;
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin: 0;
+                font-size: 0.85em;
+    
+                code {
+                    font-size: 1.5em;
+                }
+    
+                button {
+                    margin-right: unset;
+                    padding: 4px 16px;
+                }
+            }
+        }
+    }
+    
+    .page-footer {
+        padding: 22px;
+      
+   
+        p {
+            margin: 0 auto;
+            font-size: 0.75em;
+        }
+    }
+}

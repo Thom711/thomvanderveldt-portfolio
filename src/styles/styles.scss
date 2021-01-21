@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    margin: 0 auto;
+    font-family: 'JetBrains Mono', monospace;
+    text-size-adjust: none;
+    overflow-x: hidden;
+}
+
+.grid {
+    grid-template-columns: repeat(1fr, 12);
+    grid-template-rows: 1fr auto 70px;
+    grid-template-areas:
+        "h h h h h h h h h h h h"
+        "m m m m m m m m m m m m"
+        "f f f f f f f f f f f f";
+}
+
+.page-header {
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 15px 0px 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightslategray;
+
+    figure {
+        justify-content: center;
+        margin: 0;
+        border-radius: 999px;
+        
+        img {
+            align-self: center;
+            height: auto;
+            border-radius: 999px;
+        }
+    }
+
+    &__profile {     
+        &--name {
+            margin: 0;
+            font-size: 1.15em;
+        }
+
+        &--title {
+            margin: 0;
+            font-size: 0.75em;
+        }
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin-top: 10px;
+
+        .link {
+            padding: 4px 8px;
+            color: white;
+            font-size: 0.65em;
+        }
+
+        .github {
+            background-color: #333;
+            margin-right: 5px;
+        }
+        
+        .linkedin {
+            background-color: #007bb6;
+        }
+        
+        .cv {
+            background-color: #e17b77;      
+        }
+    }
+}
+
+main {
+    grid-area: m;
+    
+    .page-about {
+        display: flex;
+        margin: 0px 15px 0px 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid lightslategray; 
+
+        h3 {
+            margin: 0 auto;
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+    
+        p {
+            margin: 0 auto;
+            font-size: 0.65em;
+        }
+    }
+        
+    .page-projects {
+        margin: 0px 15px 0px 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid lightslategray; 
+
+        section {
+            display: flex;
+            margin: 0 auto;
+
+            figure {
+                justify-content: center;
+                align-content: center;
+                margin: 0;
+   
+                img {
+                    align-self: center;
+                    height: auto;
+                    border-radius: 8px;
+                    margin-top: 20px;
+                }
+
+                .left-side {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        h3 {
+            margin: 0 auto;
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+
+        p {
+            padding-top: 10px;
+            width: 75%;
+            margin: 0px;
+            margin-right: 10px;
+            font-size: 0.65em;
+        }
+    }
+
+    .page-contact {
+        margin: 0px 15px 0px 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid lightslategray;
+
+        h3 {
+            margin: 0 auto;
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        p {
+            margin: 0;
+            font-size: 0.65em;
+
+            code {
+                font-size: 1.25em;
+            }
+
+            button {
+                margin: 0 auto;
+                margin-right: 10px;
+                margin-bottom: 4px;
+                padding: 2px 8px;
+            }
+        }
+    }
+}
+
+.page-footer {
+    grid-area: f;
+    display: flex;
+    justify-content: center;
+    margin: 0px 15px 0px 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    p {
+        margin: 0 auto;
+        font-size: 0.50em;
+    }
+}
+
+/* * Copyright (c) 2018 Andrej Sharapov
+* Licensed under MIT (https://github.com/madeas/box-shadows.css/blob/master/LICENSE) */
+.bShadow-33, .bShadow-33h:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 5px -5px; 
+}
+
+@import "./styles800";

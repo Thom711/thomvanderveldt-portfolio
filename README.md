@@ -1,3 +1,10 @@
+# Portfolio
+
+21-1-2021 : Switched Portfolio over to React. Deployed with NPM Build and hosted on Github Pages.
+
+Todo: Make it more noticable that the projects are clickable.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
