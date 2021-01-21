@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/thomvanderveldt-portfolio/static/css/main.cf89c315.chunk.css",
-    "main.js": "/thomvanderveldt-portfolio/static/js/main.cb242ccd.chunk.js",
-    "main.js.map": "/thomvanderveldt-portfolio/static/js/main.cb242ccd.chunk.js.map",
+    "main.js": "/thomvanderveldt-portfolio/static/js/main.eef970ae.chunk.js",
+    "main.js.map": "/thomvanderveldt-portfolio/static/js/main.eef970ae.chunk.js.map",
     "runtime-main.js": "/thomvanderveldt-portfolio/static/js/runtime-main.ea745316.js",
     "runtime-main.js.map": "/thomvanderveldt-portfolio/static/js/runtime-main.ea745316.js.map",
     "static/js/2.4e9a01ba.chunk.js": "/thomvanderveldt-portfolio/static/js/2.4e9a01ba.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.dbf5176b.chunk.js.map": "/thomvanderveldt-portfolio/static/js/3.dbf5176b.chunk.js.map",
     "index.html": "/thomvanderveldt-portfolio/index.html",
     "static/css/main.cf89c315.chunk.css.map": "/thomvanderveldt-portfolio/static/css/main.cf89c315.chunk.css.map",
-    "static/js/2.4e9a01ba.chunk.js.LICENSE.txt": "/thomvanderveldt-portfolio/static/js/2.4e9a01ba.chunk.js.LICENSE.txt"
+    "static/js/2.4e9a01ba.chunk.js.LICENSE.txt": "/thomvanderveldt-portfolio/static/js/2.4e9a01ba.chunk.js.LICENSE.txt",
+    "static/media/profile.03ea3e2d.jpg": "/thomvanderveldt-portfolio/static/media/profile.03ea3e2d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ea745316.js",
     "static/js/2.4e9a01ba.chunk.js",
     "static/css/main.cf89c315.chunk.css",
-    "static/js/main.cb242ccd.chunk.js"
+    "static/js/main.eef970ae.chunk.js"
   ]
 }
